@@ -30,26 +30,6 @@ python -m venv env
 pip install -r requirements.txt
 ```
 
-## Contributions
-
-Contributions are welcome!
-
-Create a new branch before making changes:
-
-```powershell
-git checkout -b feature/your-change
-```
-
-After making and testing your changes, commit and push them:
-
-```powershell
-git add .
-git commit -m "describe your change"
-git push -u origin feature/your-change
-```
-
-Then open a pull request from your branch to the original repository.
-
 ## Run the project
 
 Start the backend from the `backend` folder:
@@ -92,3 +72,23 @@ background-remover/
 ```
 
 Do not upload the `backend/env` folder to GitHub. It is created locally when you set up the project.
+
+## Contributions
+
+Contributions are welcome!
+
+Create a new branch before making changes:
+
+```powershell
+git checkout -b feature/your-change
+```
+
+After making and testing your changes, commit and push them:
+
+```powershell
+git add .
+git commit -m "describe your change"
+git push -u origin feature/your-change
+```
+
+Then open a pull request from your branch to the original repository.

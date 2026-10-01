@@ -2,6 +2,16 @@
 
 A simple web app that removes the background from an uploaded image and returns a transparent PNG.
 
+## Preview
+
+### Uploaded Image
+
+![Uploaded image](upload_image.png)
+
+### Downloaded Result
+
+![Background removed result](download_image.png)
+
 ## Run the project
 
 You need Python installed on your computer.

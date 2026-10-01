@@ -45,11 +45,16 @@ http://127.0.0.1:8000
 
 ```text
 background-remover/
+├── .gitignore
+├── README.md
 ├── index.html
 ├── styles.css
 ├── app.js
+├── upload_image.png
+├── download_image.png
 └── backend/
-    ├── api/main.py
+    ├── api/
+    │   └── main.py
     └── requirements.txt
 ```
 

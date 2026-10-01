@@ -31,12 +31,6 @@ http://127.0.0.1:8000
 - `GET /health` checks whether the backend is running.
 - `POST /remove-bg` accepts an image and returns the image with its background removed.
 
-API docs are available at:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
 ## Project structure
 
 ```text

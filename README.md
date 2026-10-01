@@ -12,17 +12,50 @@ A simple web app that removes the background from an uploaded image and returns 
 
 ![Background removed result](download_image.png)
 
-## Run the project
+## Installation
 
-You need Python installed on your computer.
+To make your own copy, click **Fork** on GitHub, then clone your fork:
 
-From the project folder, open PowerShell and run:
+```powershell
+git clone https://github.com/sagarbhati23/background-remover.git
+cd background-remover
+```
+
+Install Python, then run:
 
 ```powershell
 cd backend
 python -m venv env
 .\env\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
+
+## Contributions
+
+Contributions are welcome!
+
+Create a new branch before making changes:
+
+```powershell
+git checkout -b feature/your-change
+```
+
+After making and testing your changes, commit and push them:
+
+```powershell
+git add .
+git commit -m "describe your change"
+git push -u origin feature/your-change
+```
+
+Then open a pull request from your branch to the original repository.
+
+## Run the project
+
+Start the backend from the `backend` folder:
+
+```powershell
+.\env\Scripts\Activate.ps1
 uvicorn api.main:app --reload
 ```
 

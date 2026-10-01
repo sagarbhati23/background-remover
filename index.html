@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+  <h1>Background Remover</h1>
+  <p class="subtitle">Remove the background from your image instantly.</p>
+
+  <div class="upload-area">
+    <label for="imageInput" class="file-label">Choose File</label>
+    <input type="file" id="imageInput" accept="image/*" />
+
+    <span id="fileName">No file chosen</span>
+  </div>
+
+  <button id="removeBtn">Remove Background</button>
+
+  <div class="result">
+    <img id="resultImage" />
+    <a id="downloadLink" download>Download Image</a>
+  </div>
+</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

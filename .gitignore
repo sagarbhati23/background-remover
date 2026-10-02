@@ -1,2 +1,6 @@
-api/__pycache__/
+# Ignore all Python cache directories and bytecode files anywhere in the project
+**/__pycache__/
+*.pyc
+
+# Ignore your virtual environment folder
 env/
